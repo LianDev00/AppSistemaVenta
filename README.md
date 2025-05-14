@@ -1,27 +1,61 @@
-# AppSistemaVenta
+<div align="center">
+  <h1>AppSistemaVenta</h1>
+  <h3>Sistema web para gestión de ventas desarrollado con Angular 14.</h3><br>
+  <img src="https://img.shields.io/badge/Angular%2014-%23D3002F.svg?style=for-the-badge&logo=angular&logoColor=white" alt="Angular 14">
+  <img src="https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Angular%20Material-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white" alt="Angular Material">
+  <img src="https://img.shields.io/badge/Bootstrap%205-%237952B3.svg?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap 5"><br><br>
+</div>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.13.
 
-## Development server
+## Descripción 📋
+Sistema que permite administrar ventas, productos, clientes y generar reportes. Desarrollado con Angular en el frontend y .NET Core en el backend.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Características principales ✨
+- Gestión de productos
+- Control de inventario 
+- Registro de ventas
+- Administración de usuarios
+- Reportes y estadísticas
+- Interfaz responsive
 
-## Code scaffolding
+## Requisitos previos 📋
+- Node.js 14.x o superior
+- Angular CLI 14.2.13
+- .NET 6 SDK
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Instalación 🔧
+1. Clonar el repositorio
+```bash
+git clone https://github.com/tu-usuario/AppSistemaVenta.git
+```
 
-## Build
+2. Instalar dependencias
+```bash
+cd AppSistemaVenta
+npm install
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+3. Iniciar servidor de desarrollo
+```bash
+ng serve
+```
+La aplicación estará disponible en `http://localhost:4200/`
 
-## Running unit tests
+## Scripts disponibles 📜
+- `ng serve`: Inicia el servidor de desarrollo
+- `ng build`: Compila el proyecto
+- `ng test`: Ejecuta pruebas unitarias
+- `ng e2e`: Ejecuta pruebas end-to-end
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Estructura del proyecto 📁
+```
+src/
+├── app/
+│   ├── components/
+│   ├── services/
+│   ├── models/
+│   └── shared/
+├── assets/
+└── environments/
+```
